@@ -1,10 +1,14 @@
 import React from 'react'
+import Layout from '../wrapper/index'
+import ExploreNFT from '../components/ExploreNFT'
+import Form from '../components/auth/Form'
+
 const Services = () => {
   return (
     
     <Layout>
     <div>
-      <h1>This is Services</h1>
+    <Form/>
     </div>
       </Layout>
     

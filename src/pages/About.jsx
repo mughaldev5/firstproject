@@ -1,10 +1,15 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import Layout from "../wrapper/index";
+import RangePractice from '../components/RangePractice';
 const About = () => {
+
+  
   return (
-    <div>
-      <h1>here is about page</h1>
+    <Layout>
+      <div>
+      <RangePractice/>
     </div>
+    </Layout>
   )
 }
 

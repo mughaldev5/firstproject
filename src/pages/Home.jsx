@@ -1,11 +1,12 @@
 import React from 'react'
-import Layout from '../Wrapper/Layout'
+import Layout from "../wrapper/index";
+import ExploreNFTMap from '../components/ExploreNFTMap';
 const Home = () => {
   return (
     
     <Layout>
     <div>
-      <h1>This is Home</h1>
+      <ExploreNFTMap/>
     </div>
       </Layout>
     

@@ -1,11 +1,12 @@
 import React from 'react'
-import Layout from '../WrapperLayout'
+import Layout from '../wrapper/index';
+import Practice from '../components/Practice';
 const Contant = () => {
   return (
     
     <Layout>
-    <div>
-      <h1>This is Contant</h1>
+    <div className='flex text-black'>
+      <Practice/>
     </div>
       </Layout>
     
