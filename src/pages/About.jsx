@@ -6,7 +6,7 @@ const About = () => {
   
   return (
     <Layout>
-      <div>
+      <div className='relative flex justify-center items-center w-full h-dvh'>
       <RangePractice/>
     </div>
     </Layout>

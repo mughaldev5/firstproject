@@ -76,7 +76,7 @@ const FormHandle = ({user, onSubmit, onChange}) => {
       
     </div>
     </form>
-    <section className='absolute top-36 left-80'>
+    <section className='absolute top-3 left-[560px]'>
       <p>
         Hello, my name is  <span className='text-blue-600'> {user.firstname} {user.lastname} </span>
          .My email address is 

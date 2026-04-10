@@ -5,7 +5,7 @@ const Contant = () => {
   return (
     
     <Layout>
-    <div className='flex text-black'>
+    <div className='relative flex justify-center items-center w-full h-dvh text-black'>
       <Practice/>
     </div>
       </Layout>

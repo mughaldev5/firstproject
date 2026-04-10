@@ -7,7 +7,7 @@ const Services = () => {
   return (
     
     <Layout>
-    <div>
+    <div className='relative flex justify-center items-center w-full h-dvh'>
     <Form/>
     </div>
       </Layout>
